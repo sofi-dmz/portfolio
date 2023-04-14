@@ -1,0 +1,116 @@
+body{
+    background-color:  #eeeeee;
+    background-blend-mode: normal,color-burn;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+h1,h2,h3,h4{
+    font-family: 'Space Mono', monospace;
+    
+}
+
+a{
+    font-family: 'Space Mono', monospace;
+    color:black;
+    text-decoration: none;
+}
+.col{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.col a{
+    font-size: 20px;
+    color: pink;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #2D2727;
+    z-index: 1;
+    background: #ffffff;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+
+   button:hover {
+    color: #000;
+    background: #ffffff;
+   }
+
+svg{
+    width: 20px;
+    height: 20px;
+}
+
+h2{
+    text-align: center;
+}
+.social-menu ul{
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab, .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .3s;
+    color: #000;
+    
+}
+
+
+
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    *background-color: #000;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    *background-color:  #0077b5;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    *background-color: #000 ;
+}
+
